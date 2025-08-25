@@ -55,7 +55,12 @@ chat-navigator-extension/
 
 - ✅ **ChatGPT** (chat.openai.com, chatgpt.com)
 - ✅ **Claude.ai** (claude.ai)
-- 🔄 **Coming Soon**: Perplexity, Gemini, Grok
+- ✅ **Grok** (x.ai, grok.x.ai, grok.com)
+- ✅ **Perplexity** (perplexity.ai)
+- ✅ **Gemini** (gemini.google.com, bard.google.com)
+- ✅ **Copilot** (copilot.microsoft.com)
+- ✅ **Meta** (meta.ai)
+- 🔄 **Coming Soon**: Lmarena, Merlin, Jasper, Comet, etc.
 
 ## Technical Details
 
