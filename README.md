@@ -177,9 +177,13 @@ For a detailed explanation of the project's architecture, please see the [ARCHIT
 
 ## Changelog
 
-### v1.0 (Current)
+### v1.0 
 
 - Initial release
 - ChatGPT and Claude.ai support
 - Translucent UI with backdrop blur
 - Smooth animations and interactions
+
+### v2.0 (Current)
+
+- Grok, Perplexity, Copilot, Deepkseek, Meta, Gemini AI support
