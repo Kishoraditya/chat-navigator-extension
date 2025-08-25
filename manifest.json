@@ -1,0 +1,89 @@
+{
+  "manifest_version": 3,
+  "name": "Chat Navigator",
+  "version": "1.0",
+  "description": "Navigate questions and chats on AI platforms",
+  
+  "permissions": [
+    "activeTab"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content-scripts/chatgpt.js", "content-scripts/ui-handler.js"],
+      "css": ["styles/floating-ui.css"]
+    },
+    {
+      "matches": [
+        "https://claude.ai/*"
+      ],
+      "js": ["content-scripts/claude.js", "content-scripts/ui-handler.js"],
+      "css": ["styles/floating-ui.css"]
+    },
+    {
+      "matches": [
+        "https://x.ai/*",
+        "https://grok.x.ai/*",
+        "https://grok.com/*"
+      ],
+      "js": ["content-scripts/grok.js", "content-scripts/ui-handler.js"],
+      "css": ["styles/floating-ui.css"]
+    },
+    {
+      "matches": [
+        "https://www.perplexity.ai/*",
+        "https://perplexity.ai/*"
+      ],
+      "js": ["content-scripts/perplexity.js", "content-scripts/ui-handler.js"],
+      "css": ["styles/floating-ui.css"]
+    },
+    {
+      "matches": [
+        "https://gemini.google.com/*",
+        "https://bard.google.com/*"
+      ],
+      "js": ["content-scripts/gemini.js", "content-scripts/ui-handler.js"],
+      "css": ["styles/floating-ui.css"]
+    },
+    {
+      "matches": [
+        "https://copilot.microsoft.com/*"
+      ],
+      "js": ["content-scripts/copilot.js", "content-scripts/ui-handler.js"],
+      "css": ["styles/floating-ui.css"]
+    },
+    {
+      "matches": [
+        "https://www.meta.ai/*",
+        "https://meta.ai/*"
+      ],
+      "js": ["content-scripts/meta.js", "content-scripts/ui-handler.js"],
+      "css": ["styles/floating-ui.css"]
+    }
+  ],
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["styles/floating-ui.css"],
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*",
+        "https://claude.ai/*",
+        "https://x.ai/*",
+        "https://grok.x.ai/*",
+        "https://grok.com/*",
+        "https://www.perplexity.ai/*",
+        "https://perplexity.ai/*",
+        "https://gemini.google.com/*",
+        "https://bard.google.com/*",
+        "https://copilot.microsoft.com/*",
+        "https://www.meta.ai/*",
+        "https://meta.ai/*"  
+      ]
+    }
+  ]
+}
