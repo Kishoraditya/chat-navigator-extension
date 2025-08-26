@@ -2,6 +2,8 @@
 
 A Chrome extension that adds floating Q (Questions) and C (Chats) buttons to ChatGPT and Claude.ai for easy navigation.
 
+[Deepwiki](https://deepwiki.com/Kishoraditya/chat-navigator-extension/1-overview)
+
 ## Features
 
 - **Translucent UI** - Semi-transparent design that doesn't obstruct content
